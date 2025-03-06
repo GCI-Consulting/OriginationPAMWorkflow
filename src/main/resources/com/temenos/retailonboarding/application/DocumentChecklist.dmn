@@ -362,7 +362,7 @@
         <dc:Bounds x="360" y="120" width="143" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNEdge id="dmnedge-_EA71B945-6B0B-4CF1-91F8-A7FE64792033D" dmnElementRef="_EA71B945-6B0B-4CF1-91F8-A7FE64792033D">
+      <dmndi:DMNEdge id="dmnedge-_EA71B945-6B0B-4CF1-91F8-A7FE6479203D" dmnElementRef="_EA71B945-6B0B-4CF1-91F8-A7FE6479203D">
         <di:waypoint x="316" y="319"/>
         <di:waypoint x="431.5" y="145"/>
       </dmndi:DMNEdge>
