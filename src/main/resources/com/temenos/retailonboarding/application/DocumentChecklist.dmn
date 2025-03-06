@@ -284,7 +284,7 @@
   <dmn:decision id="_7AF186F8-6DD8-4D46-97FF-12C1DDA51F3E" name="DocumentChecklist">
     <dmn:extensionElements/>
     <dmn:variable id="_A3FE075D-668D-43B4-A6B0-E8B714ECD164" name="DocumentChecklist" typeRef="Any"/>
-    <dmn:informationRequirement id="_BB2AA92F-D390-4305-8F7B-629023071DA9#_8878D5BE-1D85-4B25-BB41-F895178B5D10">
+    <dmn:informationRequirement id="_BB2AA92F-D390-4305-8F7B-629023071DA9">
       <dmn:requiredInput href="#_EE862952-F782-498E-93E7-CFF669385028"/>
     </dmn:informationRequirement>
     <dmn:knowledgeRequirement id="_BB2AA92F-D390-4305-8F7B-629023071DA9#_221A6C49-C415-40BF-AF56-1ECDD8F20E83">
@@ -362,11 +362,11 @@
         <dc:Bounds x="453" y="309" width="113" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNEdge id="dmnedge-_BB2AA92F-D390-4305-8F7B-629023071DA9#_8878D5BE-1D85-4B25-BB41-F895178B5D10" dmnElementRef="_BB2AA92F-D390-4305-8F7B-629023071DA9#_8878D5BE-1D85-4B25-BB41-F895178B5D10">
+      <dmndi:DMNEdge id="dmnedge-_BB2AA92F-D390-4305-8F7B-629023071DA9" dmnElementRef="_BB2AA92F-D390-4305-8F7B-629023071DA9">
         <di:waypoint x="316" y="319"/>
         <di:waypoint x="431.5" y="145"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_BB2AA92F-D390-4305-8F7B-629023071DA9#_221A6C49-C415-40BF-AF56-1ECDD8F20E83" dmnElementRef="_BB2AA92F-D390-4305-8F7B-629023071DA9#_221A6C49-C415-40BF-AF56-1ECDD8F20E83">
+      <dmndi:DMNEdge id="dmnedge-_BB2AA92F-D390-4305-8F7B-629023071DA9" dmnElementRef="_BB2AA92F-D390-4305-8F7B-629023071DA9">
         <di:waypoint x="509.5" y="334"/>
         <di:waypoint x="431.5" y="170"/>
       </dmndi:DMNEdge>
