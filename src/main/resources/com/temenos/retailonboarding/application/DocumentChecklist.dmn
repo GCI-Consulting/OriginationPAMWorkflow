@@ -14,22 +14,22 @@
         </dmn:input>
         <dmn:output id="_2F1C7987-ABE6-4F88-A98F-4979E83F18F8"/>
         <dmn:annotation name="annotation-1"/>
-        <dmn:rule id="_DF870538-A45C-483C-A974-BE1D544369CC">
-          <dmn:inputEntry id="_4195AD9B-98C5-44EA-B83B-BAAC542CD7EF">
+        <dmn:rule id="_3EB7E56B-3DDB-4F8A-B8B9-F3ED979F40A0">
+          <dmn:inputEntry id="_09254ED4-ADAB-439D-B234-C226FBE04A12">
             <dmn:text>get value(?,"entityDefinitionCode") = "onboarding"</dmn:text>
           </dmn:inputEntry>
-          <dmn:outputEntry id="_7AB51AAB-6F18-4D82-B0EA-74E8984E11B0">
+          <dmn:outputEntry id="_D6755528-D0B2-44D1-B0A2-06812B3BF83C">
             <dmn:text>[{"ProofOfID":[{"documentTitle":"ProofOfIDRecto","documentTypes":["Passport","LegalID", "ResidentPermit"],"attribute":["mandatory"]}],"ProofOfAddress":[{"documentTitle":"ProofOfAddress","documentTypes":["UtilityBills","3RentBills","LatestTaxStatement","CityRegistrationCertificate"],"attribute":["mandatory"]}], "Signature":[{"documentTitle":"SignatureSpecimen","documentTypes":["SignatureSpecimen"],"attribute":["mandatory"]}]}]</dmn:text>
           </dmn:outputEntry>
           <dmn:annotationEntry>
             <dmn:text></dmn:text>
           </dmn:annotationEntry>
         </dmn:rule>
-        <dmn:rule id="_E22F8843-84B3-4ACE-AED9-6A84A2E8339F">
-          <dmn:inputEntry id="_0D749A06-8CEE-4B1E-8689-55DB27FE8A52">
-            <dmn:text>-get value(?,"entityDefinitionCode") = "onboarding"</dmn:text>
+        <dmn:rule id="_DF870538-A45C-483C-A974-BE1D544369CC">
+          <dmn:inputEntry id="_4195AD9B-98C5-44EA-B83B-BAAC542CD7EF">
+            <dmn:text>get value(?,"entityDefinitionCode") = "onboarding"</dmn:text>
           </dmn:inputEntry>
-          <dmn:outputEntry id="_C3932A38-20BF-44D9-A9F0-A2FB00A04A7C">
+          <dmn:outputEntry id="_7AB51AAB-6F18-4D82-B0EA-74E8984E11B0">
             <dmn:text>[{"ProofOfID":[{"documentTitle":"VersoProofOfID","documentTypes":["VersoProofOfID"],"attribute":["optional"]}]}]</dmn:text>
           </dmn:outputEntry>
           <dmn:annotationEntry>
@@ -281,7 +281,7 @@
       </dmn:decisionTable>
     </dmn:encapsulatedLogic>
   </dmn:businessKnowledgeModel>
-  <dmn:decision id="_7AF186F8-6DD8-4D46-97FF-12C1DDA51F3E" name="DocumentChecklist">
+ <dmn:decision id="_7AF186F8-6DD8-4D46-97FF-12C1DDA51F3E" name="DocumentChecklist">
     <dmn:extensionElements/>
     <dmn:variable id="_A3FE075D-668D-43B4-A6B0-E8B714ECD164" name="DocumentChecklist" typeRef="Any"/>
     <dmn:informationRequirement id="_8878D5BE-1D85-4B25-BB41-F895178B5D10">
@@ -314,13 +314,13 @@
         <kie:ComponentsWidthsExtension>
           <kie:ComponentWidths dmnElementRef="_848D93C7-D8BC-4653-B2B9-03B23489D83D">
             <kie:width>50.0</kie:width>
-            <kie:width>508.0</kie:width>
+            <kie:width>996.0</kie:width>
             <kie:width>1325.0</kie:width>
             <kie:width>813.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_CB18BA87-5E82-423F-AEB5-F03C3CC4B4A7">
             <kie:width>50.0</kie:width>
-            <kie:width>2716.0</kie:width>
+            <kie:width>3204.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_68F77DE5-6CDB-481C-84AC-F0D227471F7D">
             <kie:width>50.0</kie:width>
@@ -350,7 +350,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="453" y="299" width="113" height="50"/>
+        <dc:Bounds x="453" y="294" width="113" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_7AF186F8-6DD8-4D46-97FF-12C1DDA51F3E" dmnElementRef="_7AF186F8-6DD8-4D46-97FF-12C1DDA51F3E" isCollapsed="false">
@@ -367,7 +367,7 @@
         <di:waypoint x="431.5" y="145"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_221A6C49-C415-40BF-AF56-1ECDD8F20E83" dmnElementRef="_221A6C49-C415-40BF-AF56-1ECDD8F20E83">
-        <di:waypoint x="509.5" y="324"/>
+        <di:waypoint x="509.5" y="319"/>
         <di:waypoint x="431.5" y="170"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
