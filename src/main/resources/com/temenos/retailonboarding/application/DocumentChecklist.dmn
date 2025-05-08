@@ -19,7 +19,7 @@
             <dmn:text>get value(?,"entityDefinitionCode") = "onboarding"</dmn:text>
           </dmn:inputEntry>
           <dmn:outputEntry id="_D6755528-D0B2-44D1-B0A2-06812B3BF83C">
-            <dmn:text>[{"ProofOfID":[{"documentTitle":"ProofOfIDRecto","documentTypes":["Passport","LegalID", "ResidentPermit"],"attribute":["mandatory"]}],"ProofOfAddress":[{"documentTitle":"ProofOfAddress","documentTypes":["UtilityBills","3RentBills","LatestTaxStatement","CityRegistrationCertificate"],"attribute":["mandatory"]}], "Signature":[{"documentTitle":"SignatureSpecimen","documentTypes":["SignatureSpecimen"],"attribute":["mandatory"]}]}]</dmn:text>
+            <dmn:text>[{"ProofOfID":[{"documentTitle":"ProofOfIDRecto","documentTypes":["Passport","LegalID", "ResidentPermit"],"attribute":["mandatory"]}],"ProofOfAddress":[{"documentTitle":"ProofOfAddress","documentTypes":["UtilityBills","3RentBills","LatestTaxStatement","CityRegistrationCertificate"],"attribute":["mandatory"]}]}]</dmn:text>
           </dmn:outputEntry>
           <dmn:annotationEntry>
             <dmn:text></dmn:text>
@@ -281,13 +281,13 @@
       </dmn:decisionTable>
     </dmn:encapsulatedLogic>
   </dmn:businessKnowledgeModel>
- <dmn:decision id="_7AF186F8-6DD8-4D46-97FF-12C1DDA51F3E" name="DocumentChecklist">
+  <dmn:decision id="_7AF186F8-6DD8-4D46-97FF-12C1DDA51F3E" name="DocumentChecklist">
     <dmn:extensionElements/>
     <dmn:variable id="_A3FE075D-668D-43B4-A6B0-E8B714ECD164" name="DocumentChecklist" typeRef="Any"/>
-    <dmn:informationRequirement id="_8878D5BE-1D85-4B25-BB41-F895178B5D10">
+    <dmn:informationRequirement id="_B18B3CCD-6E99-40CB-ADD6-F07C55DEB06C#_8878D5BE-1D85-4B25-BB41-F895178B5D10">
       <dmn:requiredInput href="#_EE862952-F782-498E-93E7-CFF669385028"/>
     </dmn:informationRequirement>
-    <dmn:knowledgeRequirement id="_221A6C49-C415-40BF-AF56-1ECDD8F20E83">
+    <dmn:knowledgeRequirement id="_B18B3CCD-6E99-40CB-ADD6-F07C55DEB06C#_221A6C49-C415-40BF-AF56-1ECDD8F20E83">
       <dmn:requiredKnowledge href="#_E19AB88B-0906-4682-AAAA-2CC7DDE70399"/>
     </dmn:knowledgeRequirement>
     <dmn:context id="_68F77DE5-6CDB-481C-84AC-F0D227471F7D">
@@ -312,16 +312,6 @@
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension>
-          <kie:ComponentWidths dmnElementRef="_848D93C7-D8BC-4653-B2B9-03B23489D83D">
-            <kie:width>50.0</kie:width>
-            <kie:width>996.0</kie:width>
-            <kie:width>1325.0</kie:width>
-            <kie:width>813.0</kie:width>
-          </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_CB18BA87-5E82-423F-AEB5-F03C3CC4B4A7">
-            <kie:width>50.0</kie:width>
-            <kie:width>3204.0</kie:width>
-          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_68F77DE5-6CDB-481C-84AC-F0D227471F7D">
             <kie:width>50.0</kie:width>
             <kie:width>100.0</kie:width>
@@ -332,6 +322,16 @@
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_44A6CF5F-CFE4-41C2-80DA-102AE5F81DA5">
             <kie:width>370.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_848D93C7-D8BC-4653-B2B9-03B23489D83D">
+            <kie:width>50.0</kie:width>
+            <kie:width>996.0</kie:width>
+            <kie:width>1325.0</kie:width>
+            <kie:width>813.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_CB18BA87-5E82-423F-AEB5-F03C3CC4B4A7">
+            <kie:width>50.0</kie:width>
+            <kie:width>3204.0</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
@@ -344,15 +344,6 @@
         <dc:Bounds x="266" y="294" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-_E19AB88B-0906-4682-AAAA-2CC7DDE70399" dmnElementRef="_E19AB88B-0906-4682-AAAA-2CC7DDE70399" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="453" y="294" width="113" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_7AF186F8-6DD8-4D46-97FF-12C1DDA51F3E" dmnElementRef="_7AF186F8-6DD8-4D46-97FF-12C1DDA51F3E" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
@@ -362,11 +353,20 @@
         <dc:Bounds x="360" y="120" width="143" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNEdge id="dmnedge-_8878D5BE-1D85-4B25-BB41-F895178B5D10" dmnElementRef="_8878D5BE-1D85-4B25-BB41-F895178B5D10">
+      <dmndi:DMNShape id="dmnshape-_E19AB88B-0906-4682-AAAA-2CC7DDE70399" dmnElementRef="_E19AB88B-0906-4682-AAAA-2CC7DDE70399" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="453" y="294" width="113" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="dmnedge-_B18B3CCD-6E99-40CB-ADD6-F07C55DEB06C#_8878D5BE-1D85-4B25-BB41-F895178B5D10" dmnElementRef="_B18B3CCD-6E99-40CB-ADD6-F07C55DEB06C#_8878D5BE-1D85-4B25-BB41-F895178B5D10">
         <di:waypoint x="316" y="319"/>
         <di:waypoint x="431.5" y="145"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_221A6C49-C415-40BF-AF56-1ECDD8F20E83" dmnElementRef="_221A6C49-C415-40BF-AF56-1ECDD8F20E83">
+      <dmndi:DMNEdge id="dmnedge-_B18B3CCD-6E99-40CB-ADD6-F07C55DEB06C#_221A6C49-C415-40BF-AF56-1ECDD8F20E83" dmnElementRef="_B18B3CCD-6E99-40CB-ADD6-F07C55DEB06C#_221A6C49-C415-40BF-AF56-1ECDD8F20E83">
         <di:waypoint x="509.5" y="319"/>
         <di:waypoint x="431.5" y="170"/>
       </dmndi:DMNEdge>
